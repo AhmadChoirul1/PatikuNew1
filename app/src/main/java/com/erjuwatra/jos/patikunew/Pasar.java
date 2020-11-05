@@ -75,7 +75,7 @@ public class Pasar extends AppCompatActivity {
         Glide.with(this).load("https://i.ibb.co/8bdB7GB/pasar.jpg").into(img3);
         Glide.with(this).load("https://i.ibb.co/7tcYcG8/p-pragolo.jpg").into(img4);
         Glide.with(this).load("https://i.ibb.co/C7GxX1M/ngablak.jpg").into(img5);
-       
+        Glide.with(this).load("https://i.ibb.co/C7GxX1M/ngablak.jpg").into(img5);
 
 
 
