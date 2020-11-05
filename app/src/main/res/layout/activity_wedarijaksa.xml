@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/p_wedari"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="51dp"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/p_wedari"
+        app:layout_constraintStart_toStartOf="@+id/p_wedari"
+        app:layout_constraintTop_toTopOf="@+id/p_wedari" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/p_wedari"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pasar Wedarijaksa"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Margorejo, Kec. Margorejo, Kabupaten Pati, Jawa Tengah 59163"
+            android:drawableStart="@drawable/location"
+            android:drawablePadding="20dp"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="tidak ada"
+            android:drawableStart="@drawable/telp"
+            android:drawablePadding="20dp"
+            android:textAlignment="textStart"
+            android:padding="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

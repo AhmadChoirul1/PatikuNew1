@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.erjuwatra.jos.patikunew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/patiku"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/patiku"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LorodanSemar"></activity>
+        <activity android:name=".GoaWareh" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Terpus"  android:theme="@style/AppTheme1"/>
+        <activity android:name=".Tedunan" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Ngablak" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Pragolo" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Wedarijaksa" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Puri" android:theme="@style/AppTheme1"/>
+        <activity android:name=".GrenjenganSena" android:theme="@style/AppTheme1"/>
+        <activity android:name=".PantaiIdola" android:theme="@style/AppTheme1"/>
+        <activity android:name=".PantaiCinta" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Rowo" android:theme="@style/AppTheme1"/>
+        <activity android:name=".EmbungMini" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Jollong" android:theme="@style/AppTheme1"/>
+        <activity android:name=".BukitNaga" android:theme="@style/AppTheme1"/>
+        <activity android:name=".BukitPandang" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Gembong" android:theme="@style/AppTheme1"/>
+        <activity android:name=".TamanKalidoro" android:theme="@style/AppTheme1" />
+        <activity android:name=".Tpa" android:theme="@style/AppTheme1"/>
+        <activity android:name=".SendangSani" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Majapahit" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Genuk"/>
+        <activity android:name=".Trangkil" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Maps" android:theme="@style/AppTheme1"/>
+        <activity android:name=".ClickedItemPancurActivity" />
+        <activity android:name=".GoaPancur" android:theme="@style/AppTheme1" />
+        <activity android:name=".Angkringan" android:theme="@style/AppTheme1" />
+        <activity android:name=".Snack" android:theme="@style/AppTheme1"/>
+        <activity android:name=".Pasar" android:theme="@style/AppTheme1" />
+        <activity android:name=".Tempe" android:theme="@style/AppTheme1" />
+        <activity android:name=".Mangut" android:theme="@style/AppTheme1" />
+        <activity android:name=".Soto" android:theme="@style/AppTheme1" />
+        <activity android:name=".Petis" android:theme="@style/AppTheme1" />
+        <activity android:name=".Gandul" android:theme="@style/AppTheme1" />
+        <activity android:name=".Bandeng" android:theme="@style/AppTheme1" />
+        <activity android:name=".Sowel" android:theme="@style/AppTheme1"/>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

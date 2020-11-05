@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E6E6"
+    tools:context=".Wisata">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Best Place"
+                android:textColor="#000000"
+                android:textSize="25sp"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/A_jollong"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/agro_jollong"
+                        android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/jollong"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Agro Wisara Jollong"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi1"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+S
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/genukKemiri"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/g_kemiri"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Genuk"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Genuk Kemiri"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi2"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi2"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/TamanKalidoro"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/Taman_kalidoro"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Taman"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Taman Kalidoro"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi3"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi3"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Sendangsani"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/Sendang_Sani"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Sendang"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sendang Sani"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi4"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi4"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/TPa"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/Tpa"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Tpa"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TPA Sukoharjo"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi5"
+                        android:layout_below="@+id/judul_Tpa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi5"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Gerbangmajapahit"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/Gerbang_majapahit"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Gerbang"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gapuro Majapahit"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi6"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi6"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Wadukgembong"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/waduk_gembong"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Gembong"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Waduk Gembong"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi7"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi7"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Goapancur"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/goa_pancur"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_GoaPancur"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goa Pancur"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi8"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi8"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/BukitNaga"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/bukit_naga"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_bukitnaga"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bukit Naga"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi9"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi9"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/lorodanSemar"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/lorodan_semar"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/judul_Lorodan"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lorodan Semar"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi10"
+                        android:layout_below="@+id/judul_pasarpuri"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi10"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Terpus"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/terpus"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Teerpus"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dam Terpus"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi11"
+                        android:layout_below="@+id/judul_Teerpus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi11"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Tedunan"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/terjun_tedunan"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/airTerjun_tedunan"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Air Terjun Tedunan"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi12"
+                        android:layout_below="@+id/airTerjun_tedunan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi12"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Pantai_Idola"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/pantai_idola"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Pantai_idola"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pantai Idola"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi13"
+                        android:layout_below="@+id/Pantai_idola"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi13"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Pantai_Cinta"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/pantai_cinta"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Pantai_cinta"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pantai Cinta"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi14"
+                        android:layout_below="@+id/Pantai_cinta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi14"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/RoWo"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/rowo"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Rowo"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gunung Rowo"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi15"
+                        android:layout_below="@+id/Rowo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi14"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Embung_mini"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/embung"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Embung"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Embung Mini Jrahi"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi16"
+                        android:layout_below="@+id/Embung"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi16"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/sena"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/Grenjengan_sena"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Grenjengan"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Grenjengan Sena"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi17"
+                        android:layout_below="@+id/Grenjengan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi17"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/Wareh"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/Goa_wareh"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/Goa"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Goa Wareh"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi18"
+                        android:layout_below="@+id/Goa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi18"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/pandang"
+                android:background="@color/white"
+                app:cardCornerRadius="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/bukit"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/b_pandang"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bukit Pandang"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        />
+                    <TextView
+                        android:id="@+id/deskripsi19"
+                        android:layout_below="@+id/b_pandang"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wisata"
+                        android:layout_marginTop="5dp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/selanjutnya18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/deskripsi19"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginLeft="230dp"
+                        android:drawableLeft="@drawable/arrow"
+                        android:text="selanjutnya" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

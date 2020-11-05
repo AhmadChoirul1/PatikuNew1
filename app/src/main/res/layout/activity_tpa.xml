@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:auto_cycle="true"
+        app:corner_radius="40"
+        app:delay="20"
+        app:error_image="@drawable/bg_grey"
+        app:period="3000"
+        app:placeholder="@drawable/bg_grey" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvhehe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Deskripsi Tempat" />
+
+            <TextView
+                android:id="@+id/tvhehe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvhehe"
+                android:layout_marginTop="20dp"
+                android:text="@string/lorodansemar"
+                />
+
+            <TextView
+                android:id="@+id/tvhehe3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvhehe2"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/location"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="Lokasi" />
+
+            <TextView
+                android:id="@+id/tvhehe4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvhehe3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="-44dp"
+                android:layout_marginEnd="49dp"
+                android:drawableLeft="@drawable/telp"
+                android:drawablePadding="20dp"
+                android:padding="10dp"
+                android:text="-" />
+
+            <GridView
+                android:layout_below="@id/tvhehe4"
+                android:id="@+id/gridView"
+                android:layout_width="wrap_content"
+                android:layout_height="235dp"
+                android:layout_marginTop="10dp"
+                android:horizontalSpacing="4dp"
+                android:numColumns="3" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
